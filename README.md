@@ -1,3 +1,4 @@
+
 # Click Game React
 
 Trò chơi click theo thứ tự số từ 1 đến N, đo thời gian hoàn thành.
@@ -17,3 +18,4 @@ Trò chơi click theo thứ tự số từ 1 đến N, đo thời gian hoàn th�
 ### Chế độ Auto Play
 ### Hiệu ứng màu sắc khi click
 ### Responsive design
+
