@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+
+  .home {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+
+  .input-section {
+    margin-bottom: 15px;
+  }
+  
+  .input-section label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .input-section input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 80px;
+  }
+  
+
+  .time-display {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  .button__main {
+    margin-bottom: 20px;
+  }
+  
+  .button--change,
+  .button--hide {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .button--change {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button--hide {
+    background-color: #28a745;
+    color: white;
+  }
+  
+
+  .game-status {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .game-status--game-over {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .game-status--all-clear {
+    background-color: #28a745;
+    color: white;
+  }
+  
+
+  .main-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+  
+  .main {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    background-color: #fafafa;
+  }
+  
+
+  .main__number {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .main__number--clicked-correct {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .main__number--clicked-wrong {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .main__number--auto-play {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .number-text {
+    font-size: 16px;
+  }
+  
+  .click-time {
+    font-size: 10px;
+  }
+
+  .next-indicator {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
